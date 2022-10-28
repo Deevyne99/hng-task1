@@ -13,32 +13,32 @@ const MainContent = () => {
       <div className='links-container'>
         <ul className='links'>
           <li>
-            <a className='btn' href={twitter}>
+            <a id='twitter-link' className='btn' href={twitter}>
               twitter link
             </a>
           </li>
           <li>
-            <a className='btn' href={trainig}>
+            <a id='btn_zuri' className='btn' href={trainig}>
               Zuri team
             </a>
           </li>
           <li>
-            <a className='btn' href={books}>
+            <a id='books' className='btn' href={books}>
               Zuri books
             </a>
           </li>
           <li>
-            <a className='btn' href={python}>
+            <a id='book_python' className='btn' href={python}>
               python books
             </a>
           </li>
           <li>
-            <a className='btn' href={background}>
+            <a id='pitch' className='btn' href={background}>
               Background Check for coders
             </a>
           </li>
           <li>
-            <a className='btn' href={design}>
+            <a id='book_design' className='btn' href={design}>
               Design Books
             </a>
           </li>

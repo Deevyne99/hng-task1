@@ -15,7 +15,7 @@ const Header = () => {
         </button>
       </div>
       <p id='twitter'>Kalu Divine</p>
-      <p id='slack'>kalu Divine</p>
+      <p id='slack'>Anonymous</p>
     </section>
   )
 }
