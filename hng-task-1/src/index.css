@@ -86,7 +86,7 @@ body {
   color: #101828;
   border: 1px solid #eaecf0;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 0.7rem;
 }
 .image-icons {
   display: flex;
@@ -125,7 +125,7 @@ body {
     justify-content: space-between;
   }
   .btn {
-    font-size: 18px;
+    font-size: 15px;
   }
   .mobile {
     display: none;
