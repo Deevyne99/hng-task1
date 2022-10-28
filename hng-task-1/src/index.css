@@ -3,6 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Inter', sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
 .profile-section {
   display: flex;
   flex-direction: column;
@@ -20,17 +28,21 @@
 #twitter {
   text-align: center;
   margin-top: 1rem;
-  margin-left: -1.7rem;
+  /* margin-left: -1.5rem; */
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
 }
 .share {
-  margin-left: auto;
+  /* margin-left: auto; */
   border: none;
   background-color: #fff;
 }
 .img-container {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 100px;
   align-items: center;
   /* background-color: blue; */
   margin: 0 auto;
@@ -38,8 +50,98 @@
 .desktop {
   display: none;
 }
-.container {
-  width: 90%;
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links-container li {
+  list-style: none;
+  width: 100%;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  /* background-color: blue; */
+}
+.links-container li .btn {
+  display: flex;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  width: 100%;
+  justify-content: center;
+  font-weight: 500;
+  align-items: center;
+  background: #eaecf0;
+  font-style: normal;
+  font-size: 15px;
+  /* Gray/200 */
+  max-width: 800px;
   margin: 0 auto;
+  color: #101828;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  padding: 1rem;
+}
+.image-icons {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 1.5rem;
   margin-top: 2rem;
+}
+.section-footer {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-bottom: 2rem;
+}
+.hng-text {
+  color: #667085;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+.zuri-logo {
+  width: 140.69px;
+  height: 24px;
+}
+.line {
+  margin-top: 5rem;
+  width: 100%;
+  height: 1px;
+  background-color: #eaecf0;
+}
+@media screen and (min-width: 678px) {
+  .section-footer {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .btn {
+    font-size: 18px;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: flex;
+  }
+  .content {
+    justify-content: space-between;
+    /* background-color: red; */
+    position: relative;
+  }
+}
+@media screen and (min-width: 992px) {
+  .share {
+    position: absolute;
+    right: 35%;
+  }
 }

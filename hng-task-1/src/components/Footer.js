@@ -6,13 +6,13 @@ const Footer = () => {
     <footer>
       <div className='section-footer'>
         <div className='img-footer'>
-          <img src={zuri} alt='' />
+          <img className='zuri-logo' src={zuri} alt='' />
         </div>
         <div className='img-footer'>
-          <p>HNG Internship 9 Frontend Task</p>
+          <p className='hng-text'>HNG Internship 9 Frontend Task</p>
         </div>
         <div className='img-footer'>
-          <img src={ingressive} alt='' />
+          <img src={ingressive} alt='ingressive logo' />
         </div>
       </div>
     </footer>
