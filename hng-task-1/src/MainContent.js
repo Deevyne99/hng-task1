@@ -5,7 +5,7 @@ const MainContent = () => {
   const twitter = `https://twitter.com/theZuriTeam`
   const trainig = `https://training.zuri.team`
   const books = `https://books.zuri.team/`
-  const python = `https://books.zuri.team/python-for-beginners?ref_id=Anonymous`
+  const python = `https://books.zuri.team/python-for-beginners?ref_id=Anonymous911`
   const background = `https://background.zuri.team`
   const design = `https://books.zuri.team/design-rules`
   return (
