@@ -14,7 +14,7 @@ const MainContent = () => {
         <ul className='links'>
           <li>
             <a
-              title='twitter link'
+              title='Twitter'
               id='twitter__link'
               className='btn'
               href={twitter}
@@ -23,12 +23,7 @@ const MainContent = () => {
             </a>
           </li>
           <li>
-            <a
-              title='zuri team link'
-              id='btn__zuri'
-              className='btn'
-              href={trainig}
-            >
+            <a title='zuri Team' id='btn__zuri' className='btn' href={trainig}>
               Zuri team
             </a>
           </li>
@@ -48,13 +43,18 @@ const MainContent = () => {
             </a>
           </li>
           <li>
-            <a title='pitch' id='pitch' className='btn' href={background}>
+            <a
+              title='Python Book best seller'
+              id='pitch'
+              className='btn'
+              href={background}
+            >
               Background Check for coders
             </a>
           </li>
           <li>
             <a
-              title='design book'
+              title='Design Book'
               id='book__design'
               className='btn'
               href={design}

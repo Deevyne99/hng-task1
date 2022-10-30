@@ -14,7 +14,7 @@ const Header = () => {
           <img className='mobile' src={mobile} alt='' />
         </button>
       </div>
-      <p id='twitter'>Kalu Divine</p>
+      <p id='twitter'>kaluDivine15</p>
       <p id='slack'>Anonymous</p>
     </section>
   )
