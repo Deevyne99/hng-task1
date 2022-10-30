@@ -28,13 +28,13 @@ const MainContent = () => {
             </a>
           </li>
           <li>
-            <a title='books' id='books' className='btn' href={books}>
+            <a title='Books' id='books' className='btn' href={books}>
               Zuri books
             </a>
           </li>
           <li>
             <a
-              title='python book'
+              title='Python book'
               id='book__python'
               className='btn'
               href={python}
@@ -44,7 +44,7 @@ const MainContent = () => {
           </li>
           <li>
             <a
-              title='Python Book best seller'
+              title='We Provide the best background check for coders'
               id='pitch'
               className='btn'
               href={background}
