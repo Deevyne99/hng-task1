@@ -13,40 +13,60 @@ const MainContent = () => {
       <div className='links-container'>
         <ul className='links'>
           <li>
-            <a id='twitter-link' className='btn' href={twitter}>
+            <a
+              title='twitter link'
+              id='twitter__link'
+              className='btn'
+              href={twitter}
+            >
               twitter link
             </a>
           </li>
           <li>
-            <a id='btn_zuri' className='btn' href={trainig}>
+            <a
+              title='zuri team link'
+              id='btn__zuri'
+              className='btn'
+              href={trainig}
+            >
               Zuri team
             </a>
           </li>
           <li>
-            <a id='books' className='btn' href={books}>
+            <a title='books' id='books' className='btn' href={books}>
               Zuri books
             </a>
           </li>
           <li>
-            <a id='book_python' className='btn' href={python}>
+            <a
+              title='python book'
+              id='book__python'
+              className='btn'
+              href={python}
+            >
               python books
             </a>
           </li>
           <li>
-            <a id='pitch' className='btn' href={background}>
+            <a title='pitch' id='pitch' className='btn' href={background}>
               Background Check for coders
             </a>
           </li>
           <li>
-            <a id='book_design' className='btn' href={design}>
+            <a
+              title='design book'
+              id='book__design'
+              className='btn'
+              href={design}
+            >
               Design Books
             </a>
           </li>
         </ul>
       </div>
       <div className='image-icons'>
-        <img src={git} alt='' />
-        <img src={slack} alt='' />
+        <img src={git} alt='git logo' />
+        <img src={slack} alt='slack logo' />
       </div>
     </section>
   )
