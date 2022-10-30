@@ -2,7 +2,7 @@ import React from 'react'
 import git from '../src/images/git.png'
 import slack from '../src/images/slack.png'
 const MainContent = () => {
-  const twitter = `https://twitter.com/theZuriTeam`
+  const twitter = `https://twitter.com/kaluDivine15`
   const trainig = `https://training.zuri.team`
   const books = `https://books.zuri.team/`
   const python = `https://books.zuri.team/python-for-beginners?ref_id=Anonymous911`
