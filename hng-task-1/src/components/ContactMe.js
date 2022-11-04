@@ -27,6 +27,7 @@ const ContactMe = () => {
     setFormErrors(validate(data))
     setIsSubmit(true)
   }
+
   const validate = (values) => {
     const errors = {}
     if (!values.firstName) {
@@ -118,7 +119,7 @@ const ContactMe = () => {
             </label>
           </div>
           <button className='btn' id='btn__submit'>
-            send message
+            Send message
           </button>
         </div>
       </form>
