@@ -1,6 +1,7 @@
 import React from 'react'
-import git from '../src/images/git.png'
-import slack from '../src/images/slack.png'
+import git from '../images/git.png'
+import slack from '../images/slack.png'
+import { Link } from 'react-router-dom'
 const MainContent = () => {
   const twitter = `https://twitter.com/kaluDivine15`
   const trainig = `https://training.zuri.team`
@@ -61,6 +62,16 @@ const MainContent = () => {
             >
               Design Books
             </a>
+          </li>
+          <li>
+            <Link
+              title='Design Book'
+              id='contact'
+              className='btn'
+              to='/contact'
+            >
+              contact
+            </Link>
           </li>
         </ul>
       </div>
