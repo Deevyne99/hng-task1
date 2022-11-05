@@ -58,7 +58,7 @@ const ContactMe = () => {
                 name='firstName'
                 id='first_name'
                 className={`input-text ${formErrors.firstName ? 'erros' : ''}`}
-                placeholder='enter your last name'
+                placeholder='enter your first name'
                 value={data.firstName}
                 onChange={handleChange}
               />
@@ -68,7 +68,7 @@ const ContactMe = () => {
               <label htmlFor='last_name'>last name</label>
               <input
                 className={`input-text ${formErrors.lastName ? 'erros' : ''}`}
-                placeholder='enter your first name'
+                placeholder='enter your last name'
                 type='text'
                 name='lastName'
                 id='last_name'
