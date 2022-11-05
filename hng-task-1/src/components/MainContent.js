@@ -70,7 +70,7 @@ const MainContent = () => {
               className='btn'
               to='/contact'
             >
-              contact
+              contact me
             </Link>
           </li>
         </ul>
